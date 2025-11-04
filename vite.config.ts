@@ -5,6 +5,10 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+ 
+  base: "/casa_verano_pinamar/", 
+ 
+  
   server: {
     host: true,
     port: 5173,
